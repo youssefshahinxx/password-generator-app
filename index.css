@@ -1,0 +1,147 @@
+body {
+    text-align: center;
+    /* margin-top: 100px; */
+    background-color: rgb(224, 224, 224);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: poppins, sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* #rp {
+    border-bottom: dashed rgb(119, 125, 249);
+} */
+
+#title {
+    color: rgb(119, 125, 249);
+    font-family: poppins, sans-serif;
+    text-shadow: 0px 0px 4px black;
+    font-size: 30px;
+    text-shadow: 0px 0px 40px rgb(255, 255, 255);
+}
+
+#un {
+    border-bottom: dashed white;
+}
+
+#output {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0px;
+    background-image: url("Untitled design (17).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(193, 193, 193);
+}
+
+
+
+#generator-elF {
+    width: 400px;
+    height: 45px;
+    font-weight: bold;
+    padding: 10px;
+    /* border-radius: 10px; */
+    background-color: rgb(182, 176, 176);
+    margin-right: 25px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: poppins, sans-serif;
+    /* color: rgb(234, 255, 140); */
+    margin-top: 20px;
+
+}
+
+#generator-elF:hover {
+    color: rgb(79, 88, 255);
+}
+
+#generator-elS {
+    margin-left: 25px;
+    width: 400px;
+    height: 45px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 30px;
+    /* border-radius: 10px; */
+    background-color: rgb(182, 176, 176);
+    border: none;
+    border-radius: 5px;
+    font-family: poppins, sans-serif;
+    margin-top: 20px;
+    /* color: rgb(234, 255, 140); */
+}
+#generator-elS:hover {
+    color: rgb(79, 88, 255);
+    border-bottom: 2px solid black;
+
+}
+#button-el {
+    margin-top: 40px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    background-color: rgba(172, 172, 172, 0.265);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+    border: none;
+}
+
+#button-el2 {
+    border-radius: 4px;
+    padding: 10px 15px;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    background-color: rgba(172, 172, 172, 0.265);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+    border: none;
+}
+
+#button-el:hover {
+    background-color: rgb(182, 176, 176);
+    color: black;
+}
+
+#button-el2:hover {
+    background-color: #ff0000;
+}
+
+#inputNum {
+    width: 30px;
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(172, 172, 172, 0.265);
+}
