@@ -14,27 +14,35 @@ let passwordLength = ""
 
 
 function generatePassS() {
+
+  if (inputNumEl.value === "") {
+    passwordLength = 15
+  } else {
+    passwordLength = inputNumEl.value
+  }
+
+
   if (generatorElS.textContent === "" ) {
       for (i = 0; i < passwordLength; i++) {
           randompass = Math.floor(Math.random() * keys.length)
           generatorElS.textContent += keys[randompass]
-        } for (i = 0; i < passwordLength; i++) {
+        }
+
+      for (i = 0; i < passwordLength; i++) {
           randompass = Math.floor(Math.random() * keys.length)
           generatorElF.textContent += keys[randompass]
         }
-      } if (inputNumEl.value === "") {
-          passwordLength = 15
-        } else {
-          passwordLength = inputNumEl.value
-        }
-      }
+      } 
+  }
 
 function resetPassS() {
   generatorElF.textContent = ""
   generatorElS.textContent = ""
 }
 
-// inputNumEl.addEventListener("click", function() {
-//   passwordLength.push(inputNumEl.value)
-//   inputNumEl.value = ""
-// })
+function copyText(event) {
+  const textToCopy = event.target.innerText;
+  navigator.clipboard.writeText(textToCopy).then(() => {
+      alert('Text copied to clipboard!');
+  })
+}
